@@ -5,6 +5,8 @@
     <style>
         body {
             font-family: Arial, sans-serif;
+            background-color: #242424;
+            
         }
 
         .container {
@@ -14,6 +16,7 @@
             border: 1px solid #ccc;
             padding: 20px;
             border-radius: 5px;
+            background-color: #fff;
         }
 
         .container h2 {
@@ -23,20 +26,22 @@
         .container label {
             display: block;
             margin-bottom: 10px;
+           
         }
 
         .container input[type="text"],
         .container input[type="password"] {
-            width: 100%;
+            width: 95%;
             padding: 8px;
             border: 1px solid #ccc;
             border-radius: 3px;
+            padding-right:0.8%;
         }
 
         .container input[type="submit"] {
             width: 100%;
             padding: 8px;
-            background-color: #4CAF50;
+            background-color: #c8f902;
             color: #fff;
             border: none;
             cursor: pointer;
@@ -44,7 +49,7 @@
         }
 
         .container input[type="submit"]:hover {
-            background-color: #45a049;
+            background-color: #a6d609;
         }
     </style>
 </head>
@@ -56,8 +61,8 @@
             <input type="text" id="username" name="username" placeholder="Enter your username" required>
             <br>
             <br>
-            <label for="matric-number">Matric Number:</label>
-            <input type="text" id="matric-number" name="matric-number" placeholder="Enter your matric number" required>
+            <label for="pwd">Password:</label>
+            <input type="password" id="pwd" name="pwd" placeholder="Password" required>
             <br>
             <br>
             <input type="submit" value="Login">
