@@ -1,0 +1,44 @@
+body {
+    background-image: url('ba.png');
+    background-size: cover;
+}
+h1, h4, label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+.form {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top:150px;
+    margin-left: 450px;
+    margin-right: 500px;
+    border: 7px solid#A6D609;
+    padding: 30px;
+    background-color: white;
+}
+
+.radio, .date {
+    align-items: flex-start;
+    flex-direction: row;
+}
+input[type=text], [type=radio], [type=date], [type=password] {
+    border: 3px solid #C8F902;
+}
+input[type="submit"] :hover {
+    opacity: 1;
+    background-color: #C8F902;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+  }

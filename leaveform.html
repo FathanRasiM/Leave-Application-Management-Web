@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Leave Application Form </title>
+        <link rel="stylesheet" href="form.css">
+    </head>
+    <form>
+    <body>
+        <div class="form">
+            <h1> Leave Request Form </h1>
+            <h4> Reason </h4>
+                <form>
+                    <div class="radio">
+                    <input type="radio" name="reason" value="annual"> <label> Annual Leave </label>
+                    <input type="radio" name="reason" value="sick"> <label> Sick Leave </label>
+                    <input type="radio" name="reason" value="maternity"> <label> Maternity Leave </label>
+                    <br>
+                    <input type="radio" name="reason" value="parental"> <label> Parental Leave </label>
+                    <input type="radio" name="reason" value="unpaid"> <label> Unpaid Leave </label>
+                    <input type="radio" name="reason" value="bereavement"> <label> Bereavement</label>
+                    <br> <br>
+                    </div>
+                    <div class="date">
+                    <label> Date Requested From </label> <input type="date" name="from"> <label> to </label> <input type="date" name="to">
+                    </div>
+                    <br>
+                    <div class="button">
+                    <input type="submit">
+                    </div>
+            </form>
+        </div>
+    </body>
+</html>
